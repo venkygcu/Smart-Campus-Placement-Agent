@@ -1,0 +1,15 @@
+Placement Portal With AI Integration and Shortlisting
+
+Landing Page:
+A Uniquely Build Desgin As Follows: (Dark theme)
+- Glassmorphic Nav Bar With A SignIn or Login Button in the end
+- Hero Section with gradiant text and background 
+- Main Text in Center with a button of github code and Get Start button
+- Other Section with reviews, and supporters and other info
+
+SignUP:
+A Uniquely Build Desgin As Follows:
+2 col,  First: I am a Student (its desc)
+	Second: I Am a Recurirter (its desc) 
+
+then ask info according to their selection, like as for the student, ask all detials and ask them to upload their resume and use groq api to convert it to text from pdf or image of whatever their resume is in, and autofill everything and then on then next page, let them review or change anything in the fetched info, and on the MainPage after Login or signup page, send to the page according to their selection (student or the recuriter) and a like ask the recuriter to create a project and then ask for the minimun requirment, and better requirments too and anayalize using groq ai to again make it all up, like understand the project properly, and create a specife link for the project with the company name slug and a unique 5 digit id, using this link, the students can apply for the internship or placement, and also give 2 options for the recurcter like intern or placement, after that shortlist chandidate with all their info and everything as per the recuriter's requirment and also create 3-4 seprate tables on the project dashborad like: highly reccommened, minimun requirment met, and not all skills like use groq ai to shortlist the candidates for the recuriet, and also give them access to multiple projects. and dont create naviee ai desgin, create something perfect, dont use any mock data, integrate turso database, create proper settings and everything, heavy anitmions and smooth and blazing fast experince, dont use fake word, just go with normal, standard word, and also use 3d buttons

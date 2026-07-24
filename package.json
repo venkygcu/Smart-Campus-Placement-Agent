@@ -1,0 +1,42 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "migrate": "tsx scripts/migrate.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.2",
+    "bcryptjs": "^3.0.3",
+    "drizzle-orm": "^0.45.2",
+    "framer-motion": "^12.38.0",
+    "groq-sdk": "^1.1.2",
+    "jose": "^6.2.2",
+    "lucide-react": "^1.8.0",
+    "multer": "^2.1.1",
+    "nanoid": "^5.1.9",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-dropzone": "^15.0.0",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "typescript": "^5"
+  }
+}
